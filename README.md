@@ -1,12 +1,6 @@
-# Discourse National Flags Plugin
+# Discourse Group Badges PLugin
 
-Allows a user-defined National Flag image to be displayed in posts
-
-## Example
-![](example.PNG)
-
-## User Settings
-![](example2.PNG)
+Adds stylable badges for every group a user is a member of
 
 # Installing
 
