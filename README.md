@@ -14,7 +14,7 @@ hooks:
         cmd:
           - mkdir -p plugins
           - git clone https://github.com/discourse/docker_manager.git
-          - git clone https://github.com/Ebsy/discourse-nationalflags.git
+          - git clone https://github.com/tomnewsom/discourse-groupbadges.git
 ```
 
 * Rebuild the container
