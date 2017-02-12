@@ -1,8 +1,11 @@
-# name: discourse-nationalflags
-# about: Display National Flags from User's home countries.
-# version: 1.0.0
-# author: Neil Ebrey <neil.ebrey@gmail.com>
-# url: https://github.com/Ebsy/discourse-nationalflags
+# name: discourse-groupbadges
+# about: show badges for every group a use is a member of
+# version: 0.1
+# author: Tom Newsom
+# url: https://github.com/tomnewsom/discourse-groupbadges
+
+# Based on discourse-nationalflags by Neil Ebrey
+# https://github.com/Ebsy/discourse-nationalflags
 
 enabled_site_setting :nationalflag_enabled
 
