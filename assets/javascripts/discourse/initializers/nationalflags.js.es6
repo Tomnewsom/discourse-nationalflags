@@ -2,10 +2,10 @@ import {h} from 'virtual-dom';
 import {withPluginApi} from 'discourse/lib/plugin-api';
 import {ajax} from 'discourse/lib/ajax'
 
-function initializeNationalFlags(api, siteSettings) {
-  const nationalflagsEnabled = siteSettings.nationalflag_enabled;
+function initializeGroupBadges(api, siteSettings) {
+  const groupbadgesEnabled = siteSettings.groupbadges_enabled;
 
-  if (!nationalflagsEnabled) {
+  if (!groupbadgesEnabled) {
     return;
   }
 
@@ -33,6 +33,6 @@ export default {
   name : 'nationalflag',
   initialize(container) {
     const siteSettings = container.lookup('site-settings:main');
-    withPluginApi('0.1', api => initializeNationalFlags(api, siteSettings));
+    withPluginApi('0.1', api => initializeGroupBadges(api, siteSettings));
   }
 };
